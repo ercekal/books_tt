@@ -141,7 +141,6 @@ const List = () => {
       {renderTable()}
       <Pagination
         pages={pages}
-        setPages={setPages}
         handleClick={handleClick}
         totalPages={totalPages}
       />
